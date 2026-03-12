@@ -214,7 +214,7 @@ section{position:relative;z-index:1;background:transparent}
 }
 .h-title{
   font-family:'Cormorant Garamond',serif;
-  font-size:clamp(96px,16.5vw,196px);
+  font-size:clamp(72px,12vw,140px);
   font-weight:300;color:#fff;
   line-height:.86;letter-spacing:.02em;
   position:relative;z-index:2;
@@ -222,7 +222,7 @@ section{position:relative;z-index:1;background:transparent}
 .h-ghost{
   position:absolute;
   font-family:'Cormorant Garamond',serif;
-  font-size:clamp(96px,16.5vw,196px);
+  font-size:clamp(72px,12vw,140px);
   font-weight:300;color:transparent;
   -webkit-text-stroke:1px rgba(190,215,255,.06);
   line-height:.86;letter-spacing:.02em;
@@ -873,7 +873,7 @@ footer{
 <!-- NAV -->
 <nav>
   <div class="nav-brand">당신 곁, <em>by 여온</em></div>
-  <button class="nav-cta" onclick="document.getElementById('final-cta').scrollIntoView({behavior:'smooth'})">전국 · 1시간 이내 도착</button>
+  <button class="nav-cta" onclick="document.getElementById('final-cta').scrollIntoView({behavior:'smooth'})">· 1시간 이내 도착</button>
 </nav>
 
 
@@ -885,7 +885,7 @@ footer{
 
   <div class="h-hook">
     <div class="h-hook-q">"진짜 새벽에 오는 변호사가 있나?"</div>
-    <div class="h-hook-a">저희가 지금 출발합니다.</div>
+    <div class="h-hook-a">여온이 지금 출발합니다.</div>
   </div>
 
   <div class="h-wrap">
@@ -896,19 +896,19 @@ footer{
   <div class="h-sub">
     체포 되셨나요? 아니면 체포자 가족인가요?<br>
     안에서 어떤 일이 벌어질지 모르십니까?<br>
-    <strong>지금 전화하세요. 저희가 그 안으로 들어갑니다.</strong>
+    <strong>지금 전화하세요. 여온이 그 안으로 들어갑니다.(전국 출동)</strong>
   </div>
 
   <div class="h-trust">
     <div class="trust-badge">전국 출동</div>
     <div class="trust-badge">365일 무휴</div>
-    <div class="trust-badge">1시간 이내 도착</div>
+    <div class="trust-badge">1시간 이내 도착(서울, 수도권)</div>
   </div>
 
   <div class="h-action">
     <button class="btn-main" onclick="document.getElementById('final-cta').scrollIntoView({behavior:'smooth'})">지금 전화하세요</button>
     <div class="btn-note">
-      <strong>결제 확인 후 1시간 이내 도착</strong>
+      <strong>결제 확인 후 1시간 이내 도착(서울, 수도권)</strong>
     </div>
   </div>
 </section>
@@ -917,7 +917,7 @@ footer{
 <!-- MARQUEE -->
 <div class="strip">
   <div class="strip-row">
-    <span>전국 출동 · 1시간 이내 도착</span><span class="dot">·</span>
+    <span>전국 출동 · 1시간 이내 도착(서울, 수도권)</span><span class="dot">·</span>
     <span>저희는 지금도 출발 대기 중입니다</span><span class="dot">·</span>
     <span>365일 무휴 당직 변호사</span><span class="dot">·</span>
     <span>혼자 버티지 않아도 됩니다</span><span class="dot">·</span>
@@ -934,7 +934,7 @@ footer{
     <div class="rv">
       <div class="tag">골든타임</div>
       <h2 class="sec-h">체포 후 몇 시간이<br><em>지났습니까?</em></h2>
-      <p class="sec-p">마약, 성범죄(카촬 등), 음주운전 체포 후 첫 6시간. <br> 그 시간에 나온 진술이 석방과 구속을 판단합니다. </br></p>
+      <p class="sec-p"> 체포 후 첫 6시간. <br> 그 시간에 나온 진술이 석방과 구속을 판단합니다. </br> <br> * 마약, 보이스피싱 수거책, 음주운전, 폭행, 성범죄, 강간 등</br></p>
 
       <!-- ★ 추가: 법조문 강조 -->
       <div class="statute">
@@ -951,7 +951,7 @@ footer{
         <div class="tc-ph">절대 골든타임</div>
         <div class="tc-nm">최초 진술 — 번복 불가</div>
         <div class="tc-b">최초 조사에 나온 말이 <strong>구속과 석방을 가릅니다.</strong>당신 곁, 변호사가 있어야 하는 이유입니다.</div>
-        <div class="tc-note">당신 곁, 1시간 안에 도착합니다.</div>
+        <div class="tc-note">당신 곁, 1시간 안에 도착합니다.(서울, 수도권)</div>
       </div>
       <div class="tl-c card">
         <div class="tc-t">6 — 24h</div>
@@ -980,7 +980,7 @@ footer{
   <div class="wrap">
     <div class="rv">
       <div class="tag">현장</div>
-      <h2 class="sec-h">변호사가 도착하면<br><em>정확히 이런 일이 벌어집니다.</em></h2>
+      <h2 class="sec-h">변호사가 도착하면<br><em>정확히 어떤 일을 해주나요?</em></h2>
     </div>
 
     <div class="scene-grid rv d1">
@@ -1000,12 +1000,12 @@ footer{
       <div class="scene-r">
         <div class="sc-c">
           <div class="sc-step">도착 즉시 — 가장 먼저 하는 일</div>
-          <div class="sc-title">지금 진행 중인 조사를 멈춥니다</div>
-          <div class="sc-body">접견 신청과 동시에 조사 중단을 요청합니다. <strong>"변호인 접견 전까지 진술하지 마세요."</strong> 이미 시작된 조사도 멈출 수 있습니다.</div>
+          <div class="sc-title">1. 지금 진행 중인 조사를 멈춥니다</div>
+          <div class="sc-body">접견 신청과 동시에 조사 중단을 요청합니다. <strong>"변호인 접견 전까지 진술하지 마세요."</strong> 이미 시작된 조사도 멈출 수 있습니다. <br> * 마약, 보이스피싱 수거책, 음주운전, 폭행, 성범죄, 강간 등 </br></div>
         </div>
         <div class="sc-c">
           <div class="sc-step">접견실에서 — 가장 중요한 15분</div>
-          <div class="sc-title">이미 한 말부터 수습합니다</div>
+          <div class="sc-title">2. 이미 한 말부터 수습합니다</div>
           <div class="sc-body">변호사 없이 나온 말을 분석합니다. <strong>번복 가능한 것과 그렇지 않은 것을 나누고,</strong> 이후 조사에서 단 한 마디도 낭비하지 않도록 준비합니다.</div>
         </div>
       </div>
@@ -1014,17 +1014,17 @@ footer{
     <div class="scene-bot rv d2">
       <div class="sc-bot-c card">
         <div class="sc-step">조사 동석</div>
-        <div class="sc-title">"그 질문엔 답변하지 않겠습니다"</div>
+        <div class="sc-title">3. "그 질문엔 답변하지 않겠습니다"</div>
         <div class="sc-body">유도 심문, 자백 압박에 <strong>변호사가 그 자리에서 즉각 차단합니다.</strong> 혼자였다면 모르고 넘어갔을 것들을.</div>
       </div>
       <div class="sc-bot-c card">
         <div class="sc-step">밖에서 기다리는 분께</div>
-        <div class="sc-title">2시간마다 직접 전화드립니다</div>
+        <div class="sc-title">4. 2시간마다 직접 전화드립니다</div>
         <div class="sc-body">지금 어떤 조사를 받고 있는지, 어떻게 대응하고 있는지. <strong>아무도 알려주지 않는 그 시간을</strong> 당신 곁에서 채워드립니다.</div>
       </div>
       <div class="sc-bot-c card">
         <div class="sc-step">석방 이후</div>
-        <div class="sc-title">회사에 아무것도 들키지 않게</div>
+        <div class="sc-title">5. 회사에 아무것도 들키지 않게</div>
         <div class="sc-body">직장 부재 처리, 디지털 흔적 정리, 영장심사 준비, 탄원서. <strong>체포 전 일상으로 완전히 복귀하는 것</strong>까지가 저희 일입니다.</div>
       </div>
     </div>
@@ -1035,7 +1035,7 @@ footer{
   <div class="wrap">
     <div class="rv">
       <div class="tag">신뢰</div>
-      <h2 class="sec-h">"다른 변호사랑<br><em>뭐가 다른데?"</em></h2>
+      <h2 class="sec-h">"다른 로펌과<br><em> 여온은 뭐가 다른데?"</em></h2>
       <p class="sec-p">눈 앞에 놓인 사건은 물론, 향후 인생도 책임집니다.</p>
     </div>
         <div class="compare-rows">
@@ -1047,7 +1047,7 @@ footer{
           <div class="compare-row">
             <div class="cr-label">새벽 출동</div>
             <div class="cr-others">전화 상담만 가능</div>
-            <div class="cr-us"><strong>1시간 이내 직접 출동</strong></div>
+            <div class="cr-us"><strong>1시간 이내 직접 출동(서울, 수도권)</strong></div>
           </div>
           <div class="compare-row">
             <div class="cr-label">도착 보장</div>
@@ -1085,7 +1085,7 @@ footer{
     </div>
       <div class="pkg-r">
         <ul class="pkg-list">
-          <li><strong>결제 확인 후 1시간 이내 대표 변호사 직접 출동</strong> — 전국, 계약서 명시</li>
+          <li><strong>결제 확인 후 1시간 이내 대표 변호사 직접 출동(서울, 수도권)</strong> — 전국, 계약서 명시</li>
           <li>변호사 2인 1조 + 케이스 매니저 전담 배정</li>
           <li>모든 경찰 조사 동석 + 진술 전략 단어 단위 코칭</li>
           <li><strong>2시간 단위 가족 브리핑</strong> — 새벽 3시에도 전화합니다</li>
@@ -1110,7 +1110,7 @@ footer{
       <button class="btn-main" style="padding:20px 64px;font-size:clamp(15px,1.8vw,19px)">지금 전화하세요</button>
       <div style="margin-top:16px;font-family:'DM Mono',monospace;font-size:10px;
         letter-spacing:3px;text-transform:uppercase;color:rgba(200,222,255,.38)">
-        전국 · 1시간 이내 도착 · 365일 무휴
+        전국 · 1시간 이내 도착(서울,수도권) · 365일 무휴
       </div>
     </div>
     <div class="final-rule rv d4"></div>
