@@ -467,7 +467,7 @@ section{position:relative;z-index:1;background:transparent}
 ══════════════════════════════════ */
 .statute{
   margin:24px 0;
-  padding:18px 24px;
+  padding:28px 32px;
   background:rgba(255,230,200,.12);
   border-left:4px solid #ffc107;
   font-size:0.9rem;
@@ -498,7 +498,7 @@ section{position:relative;z-index:1;background:transparent}
   font-family:'DM Mono',monospace;font-size:7px;letter-spacing:2px;text-transform:uppercase;
   background:rgba(190,215,255,.16);color:rgba(232,242,255,.78);padding:4px 0;
 }
-.tl-c.dim{opacity:.26}
+.tl-c.dim{opacity:.38}
 .tc-t{
   font-family:'DM Mono',monospace;
   font-size:clamp(18px,2vw,26px);font-weight:400;
@@ -572,7 +572,7 @@ section{position:relative;z-index:1;background:transparent}
 
 .scene-r{display:flex;flex-direction:column;gap:2px}
 .sc-c{
-  padding:28px 32px;flex:1;
+  padding:32px 32px;flex:1;
   background:rgba(8,14,46,.62);
   border:1px solid rgba(255,255,255,.07);
   transition:all .30s;
@@ -598,7 +598,7 @@ section{position:relative;z-index:1;background:transparent}
   gap:2px;margin-top:2px;
 }
 .sc-bot-c{
-  padding:28px 28px;
+  padding:32px 32px;
   background:rgba(8,14,46,.60);
   border:1px solid rgba(255,255,255,.07);
   transition:all .30s;
@@ -946,18 +946,12 @@ footer{
     </div>
 
     <div class="tl-grid rv d1">
-      <div class="tl-c hot">
-        <div class="tc-t">0 — 6h</div>
-        <div class="tc-ph">절대 골든타임</div>
-        <div class="tc-nm">최초 진술 — 번복 불가</div>
-        <div class="tc-b">최초 조사에 나온 말이 <strong>구속과 석방을 가릅니다.</strong>당신 곁, 변호사가 있어야 하는 이유입니다.</div>
-        <div class="tc-note">당신 곁, 1시간 안에 도착합니다.(서울, 수도권)</div>
-      </div>
       <div class="tl-c card">
         <div class="tc-t">6 — 24h</div>
         <div class="tc-ph">결정적 분기점</div>
         <div class="tc-nm">석방이냐, 구속영장이냐</div>
         <div class="tc-b">수사관이 영장을 신청할지 결정합니다. <strong>이 순간을 어떻게 다루느냐가</strong> 결과를 완전히 바꿉니다.</div>
+        <div class="tc-note">당신 곁, 1시간 안에 도착합니다.(서울, 수도권)</div>
       </div>
       <div class="tl-c card">
         <div class="tc-t">24 — 48h</div>
@@ -968,8 +962,8 @@ footer{
       <div class="tl-c dim card">
         <div class="tc-t">48h+</div>
         <div class="tc-ph">이미 늦은 이후</div>
-        <div class="tc-nm">줄이는 싸움만 남습니다</div>
-        <div class="tc-b">처음부터 함께했다면 막을 수 있었던 것들. 아침을 기다리는 동안, 이 문들이 닫힙니다.</div>
+        <div class="tc-nm">추가조사 및 재판절차 진행</div>
+        <div class="tc-b">구속된 상황에서는 내 주장을 입증할 자료확보가 매우 어렵습니다.</div>
       </div>
     </div>
   </div>
@@ -1000,13 +994,13 @@ footer{
       <div class="scene-r">
         <div class="sc-c">
           <div class="sc-step">도착 즉시 — 가장 먼저 하는 일</div>
-          <div class="sc-title">1. 지금 진행 중인 조사를 멈춥니다</div>
-          <div class="sc-body">접견 신청과 동시에 조사 중단을 요청합니다. <strong>"변호인 접견 전까지 진술하지 마세요."</strong> 이미 시작된 조사도 멈출 수 있습니다. <br> * 마약, 보이스피싱 수거책, 음주운전, 폭행, 성범죄, 강간 등 </br></div>
+          <div class="sc-title">1. 이유 없이 체포되었을리 없습니다.</div>
+          <div class="sc-body">담당 수사관과 연락. <strong>혐의사실 및 체포경위</strong> 기초 변소내용 파악. <br> * 마약, 보이스피싱 수거책, 음주운전, 폭행, 성범죄, 강간 등 </br></div>
         </div>
         <div class="sc-c">
           <div class="sc-step">접견실에서 — 가장 중요한 15분</div>
-          <div class="sc-title">2. 이미 한 말부터 수습합니다</div>
-          <div class="sc-body">변호사 없이 나온 말을 분석합니다. <strong>번복 가능한 것과 그렇지 않은 것을 나누고,</strong> 이후 조사에서 단 한 마디도 낭비하지 않도록 준비합니다.</div>
+          <div class="sc-title">2. 모든 진술이 기록 된 수사기록</div>
+          <div class="sc-body"> <strong>번복 가능한 진술과 그렇지 않은 진술,</strong> 우리의 진술을 입증할 증거 파악 </div>
         </div>
       </div>
     </div>
@@ -1020,12 +1014,12 @@ footer{
       <div class="sc-bot-c card">
         <div class="sc-step">밖에서 기다리는 분께</div>
         <div class="sc-title">4. 2시간마다 직접 전화드립니다</div>
-        <div class="sc-body">지금 어떤 조사를 받고 있는지, 어떻게 대응하고 있는지. <strong>아무도 알려주지 않는 그 시간을</strong> 당신 곁에서 채워드립니다.</div>
+        <div class="sc-body">지금 어떤 조사를 받고 있는지, 어떻게 대응하고 있는지? <strong>가족, 지인분의 입장 청취 및 접견내용</strong>을 당신 곁에서 채워드립니다.</div>
       </div>
       <div class="sc-bot-c card">
-        <div class="sc-step">석방 이후</div>
-        <div class="sc-title">5. 회사에 아무것도 들키지 않게</div>
-        <div class="sc-body">직장 부재 처리, 디지털 흔적 정리, 영장심사 준비, 탄원서. <strong>체포 전 일상으로 완전히 복귀하는 것</strong>까지가 저희 일입니다.</div>
+        <div class="sc-step">조사출석</div>
+        <div class="sc-title">5. 당신을 구속시키려는 수사관</div>
+        <div class="sc-body">질문의 취지도 이해하지 못하는 급박한 상황, <strong>이성을 잃지 않고 논리적 대응책을 제시</strong></div>
       </div>
     </div>
 </section>
@@ -1057,7 +1051,7 @@ footer{
           <div class="compare-row">
             <div class="cr-label">담당자</div>
             <div class="cr-others">직원 또는 연락 불가</div>
-            <div class="cr-us"><strong>대표 변호사 직접</strong></div>
+            <div class="cr-us"><strong>변호사 직접</strong></div>
           </div>
           <div class="compare-row">
             <div class="cr-label">가족 연락</div>
@@ -1085,7 +1079,7 @@ footer{
     </div>
       <div class="pkg-r">
         <ul class="pkg-list">
-          <li><strong>결제 확인 후 1시간 이내 대표 변호사 직접 출동(서울, 수도권)</strong> — 전국, 계약서 명시</li>
+          <li><strong>결제 확인 후 1시간 이내 여온 변호사 직접 출동(서울, 수도권)</strong> — 전국, 계약서 명시</li>
           <li>변호사 2인 1조 + 케이스 매니저 전담 배정</li>
           <li>모든 경찰 조사 동석 + 진술 전략 단어 단위 코칭</li>
           <li><strong>2시간 단위 가족 브리핑</strong> — 새벽 3시에도 전화합니다</li>
